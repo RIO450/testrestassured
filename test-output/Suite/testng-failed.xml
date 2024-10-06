@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="test(failed)">
+    <classes>
+      <class name="Test_Api_P">
+        <methods>
+          <include name="Tokengenetaion"/>
+          <include name="init"/>
+          <include name="LogrequestusinFilter"/>
+          <include name="Authencation"/>
+          <include name="Getall"/>
+          <include name="Filter"/>
+        </methods>
+      </class> <!-- Test_Api_P -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
